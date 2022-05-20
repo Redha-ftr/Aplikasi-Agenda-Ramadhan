@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        tools:context=".CatatanActivity">
+
+        <TextView
+            android:id="@+id/tittle"
+            android:text="Buat Catatan Baru"
+            android:textSize="22sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tittle"
+            android:layout_marginTop="20dp"
+            android:text="Catatan hari ini : "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editctt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_marginTop="3dp"
+            android:gravity="top|left"
+            android:hint="tulis rincian catatan hari ini"
+            android:lines="3"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editctt"
+            android:layout_marginTop="20dp"
+            android:text="Shalat 5 waktu : "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckSubuh"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:text="Subuh"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckMagrib"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ckSubuh"
+            android:text="Magrib"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckZuhur"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_toRightOf="@id/ckSubuh"
+            android:text="Zuhur"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckIsya"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ckSubuh"
+            android:layout_toRightOf="@id/ckMagrib"
+            android:text="Isya"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckAshar"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_toRightOf="@id/ckZuhur"
+            android:text="Ashar"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckPuasa"
+            android:layout_below="@id/ckMagrib"
+            android:text="Puasa Ramadhan"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ckPuasa"
+            android:layout_marginTop="20dp"
+            android:text="Tadarus Al-Qur'an : "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinSurat1"
+            android:layout_width="170dp"
+            android:entries="@array/surat"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/spinSurat1"
+            android:text="  -  "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinSurat2"
+            android:layout_below="@id/text3"
+            android:layout_toRightOf="@id/text4"
+            android:layout_marginTop="5dp"
+            android:entries="@array/surat"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/editAyat1"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinSurat1"
+            android:layout_marginTop="5dp"
+            android:hint="ayat awal"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/editAyat1"
+            android:text="  -  "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editAyat2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinSurat2"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/text5"
+            android:hint="ayat akhir"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <CheckBox
+            android:id="@+id/ckInfaq"
+            android:layout_below="@id/editAyat1"
+            android:text="Infaq"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ckInfaq"
+            android:layout_marginTop="15dp"
+            android:text="Shalat Sunnah : "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckss1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:text="Shalat Tarawih"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckss2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:layout_toRightOf="@id/ckss1"
+            android:text="Shalat Witir"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckss3"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ckss1"
+            android:text="Shalat Duha"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ckss4"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ckss1"
+            android:layout_toRightOf="@id/ckss3"
+            android:text="Shalat Tahajud"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ckss3"
+            android:layout_marginTop="3dp"
+            android:hint="lainnya..."
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_below="@id/editss"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="Simpan"
+            android:textSize="18sp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/editctt"
+            android:layout_marginTop="5dp"
+            android:background="@color/yellow" />
+
+        <View
+            android:layout_below="@id/ckMagrib"
+            android:layout_marginTop="5dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/ckPuasa"
+            android:layout_marginTop="5dp"
+            android:background="@color/yellow" />
+
+        <View
+            android:layout_below="@id/editAyat1"
+            android:layout_marginTop="5dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <View
+            android:layout_below="@id/ckInfaq"
+            android:layout_marginTop="5dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">MiniProject</string>
+    <string name="appName">Agenda Ramadhan</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Daftar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Buat Ramadhan mu lebih bermanfaat dengan mencapai target harian</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="ss1">"Shalat Tarawih"</string>
+    <string name="ss2">"Shalat Witir"</string>
+    <string name="ss3">"Shalat Duha"</string>
+    <string name="ss4">"Shalat Tahajjud"</string>
+    <string-array name="surat">
+        <item>Pilih surat</item>
+        <item>Al Fatihah</item>
+        <item>Al Baqarah</item>
+        <item>Ali Imran</item>
+        <item>An Nisa</item>
+        <item>Al Maidah</item>
+        <item>Al Anam</item>
+        <item>Al-Araf</item>
+        <item>Al-Anfal</item>
+        <item>At-Taubah</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Ar-Rad</item>
+        <item>Ibrahim</item>
+        <item>Al-Hijr</item>
+        <item>An-Nahl</item>
+        <item>Al-Isra</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Ta Ha</item>
+        <item>Al-Anbiya</item>
+        <item>Al-Hajj</item>
+        <item>Al-Muminun</item>
+        <item>An-Nur</item>
+        <item>Al-Furqan</item>
+        <item>Asy-Syuara</item>
+        <item>An-Naml</item>
+        <item>Al-Qasas</item>
+        <item>Al-Ankabut</item>
+        <item>Ar-Rum</item>
+        <item>Luqman</item>
+        <item>As-Sajdah</item>
+        <item>Al-Ahzab</item>
+        <item>Saba</item>
+        <item>Fatir</item>
+        <item>Ya Sin</item>
+        <item>As-Saffat</item>
+        <item>Sad</item>
+        <item>Az-Zumar</item>
+        <item>Ghafir</item>
+        <item>Fussilat</item>
+        <item>Asy-Syura</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhan</item>
+        <item>Al-Jasiyah</item>
+        <item>Al-Ahqaf</item>
+        <item>Muhammad</item>
+        <item>Al-Fath</item>
+        <item>Al-Hujurat</item>
+        <item>Qaf</item>
+        <item>Az-Zariyat</item>
+        <item>At-Tur</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Rahman</item>
+        <item>Al-Waqiah</item>
+        <item>Al-Hadid</item>
+        <item>Al-Mujadilah</item>
+        <item>Al-Hasyr</item>
+        <item>Al-Mumtahanah</item>
+        <item>As-Saff</item>
+        <item>Al-Jumuah</item>
+        <item>Al-Munafiqun</item>
+        <item>At-Tagabun</item>
+        <item>At-Talaq</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Haqqah</item>
+        <item>Al-Maarij</item>
+        <item>Nuh</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddassir</item>
+        <item>Al-Qiyamah</item>
+        <item>Al-Insan</item>
+        <item>Al-Mursalat</item>
+        <item>An-Naba</item>
+        <item>An-Naziat</item>
+        <item>Abasa</item>
+        <item>At-Takwir</item>
+        <item>Al-Infitar</item>
+        <item>Al-Tatfif</item>
+        <item>Al-Insyiqaq</item>
+        <item>Al-Buruj</item>
+        <item>At-Tariq</item>
+        <item>Al-Ala</item>
+        <item>Al-Gasyiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Asy-Syams</item>
+        <item>Al-Lail</item>
+        <item>Ad-Duha</item>
+        <item>Al-Insyirah</item>
+        <item>At-Tin</item>
+        <item>Al-Alaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-Adiyat</item>
+        <item>Al-Qariah</item>
+        <item>At-Takasur</item>
+        <item>Al-Asr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fil</item>
+        <item>Quraisy</item>
+        <item>Al-Maun</item>
+        <item>Al-Kausar</item>
+        <item>Al-Kafirun</item>
+        <item>An-Nasr</item>
+        <item>Al-Lahab</item>
+        <item>Al-Ikhlas</item>
+        <item>Al-Falaq</item>
+        <item>An-Nas"</item>
+    </string-array>
+</resources>
